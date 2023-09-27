@@ -1,0 +1,12 @@
+{% block header %}
+    <h1>Détail utilisateur</h1>
+{% endblock %}
+
+{% block content %}
+    <div class="user">
+        <p>Nom : {{ user.name }}</p>
+        <p>Adresse mail : {{ user.email }}</p>
+        <p>Age : {{ user.age }}</p>
+        <p>Bio : {{ user.bio }}</p>
+    </div>
+{% endblock %}
